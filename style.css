@@ -568,7 +568,7 @@ position: absolute;
     
     }   
     .post{
-        grid-column: 2/12;
+        grid-column: 1/12;
          /* border: 2px solid gray; */
          /* height: 1200px; */
          
@@ -578,7 +578,7 @@ position: absolute;
         position: sticky;
             
         top: 63px;
-        grid-column: 12/12;
+        grid-column:0;
         /* border: 2px solid gray; */
         height:500px;
     
