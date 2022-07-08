@@ -625,12 +625,12 @@ position: absolute;
         background-size: cover; */
     }
     .posting{
-        margin-top: 12px;
+        margin-top: 0px;
         width: 100%;
         border: 1px solid rgba(128, 128, 128, 0.247);
-        border-radius: 10px;
+        border-radius: 0px;
         height:auto;
-        margin-bottom: 12px;
+        margin-bottom: 0px;
         background-color:white;
         
     }
@@ -639,7 +639,7 @@ position: absolute;
         background-color: white;
         display: flex;
         align-items: center;
-        height: 54px;
+        height: 45px;
         margin-top: -1px;
         /* margin-left: 8px; */
         border: 1px solid rgba(128, 128, 128, 0.199);
@@ -662,7 +662,7 @@ position: absolute;
     
     }
     .posthead i{
-        margin-left: 345px;
+        margin-left: 237px;
         
     }
     .posthead p{
@@ -677,8 +677,8 @@ position: absolute;
         background-color: white;
         display: flex;
         /* align-items: center; */
-        height: 54px;
-        font-size: 23px;
+        height: 45px;
+        font-size: 20px;
         align-items: center;
         margin-bottom: 5px;
         margin-top: 5px;
@@ -693,13 +693,13 @@ position: absolute;
     
     }
     .like i{
-        margin-left: 15px;
+        margin-left: 12px;
     }
     .like i:hover{
         color: rgb(179, 170, 170);
     }
     .like i:last-child{
-        margin-left: 335px;
+        margin-left: 240px;
     }
     
     .text{
@@ -775,7 +775,7 @@ position: absolute;
     }
     .comm i{
         margin-left: 7px;
-        font-size: 24px;
+        font-size: 22px;
     }
     
     
