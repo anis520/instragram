@@ -13,6 +13,7 @@ p{
     cursor: pointer;
 }
 
+
 .heading{
     /* box-shadow: black 5px 40px 44px 5px; */
     display: grid;
@@ -507,7 +508,7 @@ position: absolute;
         
         margin-right:22px;
     }
-    .md{ margin-left: 40px;
+    .md{ margin-left: 0px;
         margin-top: 5px;
         display: flex;
         grid-area: m;
@@ -521,7 +522,7 @@ position: absolute;
         grid-area: m2;
         
     }
-    .menu3{display: none;
+    .menu3{
         font-size: 23px;
         
         
@@ -651,8 +652,8 @@ position: absolute;
     .posthead img{
         margin-right: 7px;
         margin-left: 8px;
-        height: 35px;
-        width: 35px;
+        height: 30px;
+        width: 30px;
         background: linear-gradient(#fff, #fff) padding-box,
         linear-gradient(45deg,#FFC900,#DC32D1) border-box;
         border: 3px solid transparent;
@@ -879,3 +880,7 @@ position: absolute;
 
     
 }
+
+
+
+
