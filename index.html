@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
 </head>
 <body>
     
@@ -30,7 +31,7 @@
               <i class="bi bi-chat-dots"></i>
              </div>
              <div class="menu3">
-              <i class="bi bi-plus-square"></i>
+              <i class="bi bi-plus-square" data-bs-toggle="modal" href="#post_modal"></i>
              </div>
              <div class="menu4">
               <i class="fa-regular fa-compass"></i>        
@@ -46,7 +47,7 @@
         </div>
 <div class="body">
           
-<div class="post">
+<div class="post"  >
             
           <div class="story">
                 <div class="story1">
@@ -73,66 +74,11 @@
                         
             </div>
               
-<div class="posting">
-                      <div class="posthead">
-                        <img src="./img/asraful.jpg" alt="">
-                        <p>asraful12</p>
-                        <i class="fa-solid fa-ellipsis"></i>
-                      </div>
-                      <div class="imgpost">
-                            <img src="./img/asraful.jpg" alt="">
-                      </div>
-                      <div class="like">
-                        <i class="bi bi-heart love"></i>
-                        <i class="bi bi-chat text"></i>
-                        <i class="bi bi-send sent"></i>
-                        <i class="fa-solid fa-bookmark save"></i>
-                      </div>
-                      <div class="totallike">
-                           <p>100 like</p>
-                      </div>
-                      <div class="texted">
-                        <p>My favarite teacher .love you sir </p>
-                      </div>
-                      <div class="time">
-                        <p>1 our ago</p>
-                      </div>
-                      <div class="comm">
-                        <i class="bi bi-emoji-smile"></i>
-                        <input placeholder="Add a comment..." type="text" name="" id="">
-                      </div>
+
+     <div class="posting1" id="outputdiv">
+                       
                       
- </div>
-<div class="posting">
-                      <div class="posthead">
-                        <img src="./img/asraful.jpg" alt="">
-                        <p>asraful12</p>
-                        <i class="fa-solid fa-ellipsis"></i>
-                      </div>
-                      <div class="imgpost">
-                            <img src="./img/asraful.jpg" alt="">
-                      </div>
-                      <div class="like">
-                        <i class="bi bi-heart love"></i>
-                        <i class="bi bi-chat text"></i>
-                        <i class="bi bi-send sent"></i>
-                        <i class="fa-solid fa-bookmark save"></i>
-                      </div>
-                      <div class="totallike">
-                           <p>100 like</p>
-                      </div>
-                      <div class="texted">
-                        <p>My favarite teacher .love you sir </p>
-                      </div>
-                      <div class="time">
-                        <p>1 our ago</p>
-                      </div>
-                      <div class="comm">
-                        <i class="bi bi-emoji-smile"></i>
-                        <input placeholder="Add a comment..." type="text" name="" id="">
-                      </div>
-                      
- </div>
+     </div>
 
 
                     
@@ -155,8 +101,8 @@
 
                         </div>
                         <div class="sugg">
-                          <h3 style="color: grey;margin-right: 95px;">Suggestion for you</h3>
-                          <h4>See more</h4>
+                          <h6 style="color: grey;margin-right: 100px;">Suggestion for you</h6>
+                          <p style="font-size: 15px;font-weight: bold;">See more</p>
                         </div>
                        <div class="follow">
                             <img src="./img/mboy1.png" alt="">
@@ -227,7 +173,74 @@
 </div>
 
 
-        
-                
+<div class="modal" id="post_modal">
+
+  <div class="modal-dialog modal-dialog-centered">
+
+         <div class="modal-content">
+
+
+                 <div class="modal-header">
+                       
+                      <h2>Add new Product</h2>
+                      <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                      
+
+                 </div>
+
+
+                 <div class="modal-body">
+                                 
+                        <div class="msg"></div>
+
+                          <form id="post_form">
+
+                                   <div class="my-3">
+
+                                     <label for="">Name</label>
+                                     <input name="name" type="text" class="form-control">
+                                   
+                                  </div>
+                                   <div class="my-3">
+
+                                     <label for="">Admin Photo</label>
+                                     <input name="aphoto" type="text" class="form-control">
+                                   
+                                  </div>
+                                   <div class="my-3">
+
+                                     <label for="">Text here</label>
+                                     <input name="text" type="text" class="form-control">
+                                   
+                                  </div>
+                                   <div class="my-3">
+
+                                     <label for="">Photo</label>
+                                     <input name="photo" type="text" class="form-control">
+                                   
+                                  </div>
+                                   <div class="my-3">
+
+                                      <input type="submit" class="btn btn-primary w-100" value="Add Now">
+                                   
+                                  </div>
+
+                          </form>
+
+                 </div>
+
+
+         </div>
+
+  </div>
+
+</div>
+
+
+
+
+         <script src="./function.js"></script>
+        <script src="./app.js"></script>     
+        <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>   
  </body>
  </html>

@@ -64,7 +64,7 @@ p{
 .search i{
 position: absolute;
     left: 13px;
-    top: 10px;
+    top: 7px;
     color: gray;
     font-size: 16px;
 }
@@ -82,24 +82,29 @@ position: absolute;
 .menu2{
     font-size: 23px;
     grid-area: m2;
+    margin-top: 3px;
     
 }
 .menu3{
     font-size: 23px;
+    margin-top: 3px;
     
     
     grid-area: m3;
 }
 .menu4{
+    margin-top: 3px;
     font-size: 23px;
     grid-area: m4;
 }
 .menu5{
+    margin-top: 3px;
     font-size: 23px;
     grid-area: m5;
     
 }
 .menu6{
+    margin-top: 5px;
     grid-area: m6;
     
 }
@@ -171,7 +176,7 @@ position: absolute;
 .story1 img{
     height: 60px;
     width: 60px;
-    margin-bottom: -7px;
+    margin-bottom: 2px;
     background: linear-gradient(#fff, #fff) padding-box,
     linear-gradient(45deg,#FFC900,#DC32D1) border-box;
     border: 3px solid transparent;
@@ -249,7 +254,12 @@ position: absolute;
 }
 .like i{
     margin-left: 15px;
+  
 }
+.like i:last-child{
+color:gray;
+}
+
 .like i:hover{
     color: rgb(179, 170, 170);
 }
@@ -313,7 +323,7 @@ position: absolute;
 }
 .comm{
     height: 40px;
-    padding: 4px;
+    
     align-items: center;
     border: 1px solid gainsboro;
     background-color: #FFFFFF;
@@ -333,7 +343,18 @@ position: absolute;
     font-size: 24px;
 }
 
+.wdiv{
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #34AAF7;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
+}
 
 
 
@@ -358,7 +379,7 @@ position: absolute;
     margin-left: 10px;
 }
 .maindiv .adiv{
-    margin-left: 140px;
+    margin-left: 136px;
 }
 .maindiv .adiv p{
     color:#34AAF7;
@@ -509,7 +530,7 @@ position: absolute;
         margin-right:22px;
     }
     .md{ margin-left: 0px;
-        margin-top: 5px;
+        margin-top: 0px;
         display: flex;
         grid-area: m;
     }
@@ -617,7 +638,7 @@ position: absolute;
     .story1 img{
         height: 60px;
         width: 60px;
-        margin-bottom: -7px;
+        margin-bottom: 0px;
         background: linear-gradient(#fff, #fff) padding-box,
         linear-gradient(45deg,#e7e4059f,#DC32D1) border-box;
         border: 3px solid transparent;
@@ -678,7 +699,7 @@ position: absolute;
         background-color: white;
         display: flex;
         /* align-items: center; */
-        height: 45px;
+        height: 42px;
         font-size: 20px;
         align-items: center;
         margin-bottom: 5px;
@@ -729,6 +750,7 @@ position: absolute;
     .totallike{
         background-color: #FFFFFF;
         margin-left: 10px;
+        height: 20px;
     }
     .totallike p{
         background-color:white;
@@ -740,8 +762,8 @@ position: absolute;
     .texted{
         background-color: #FFFFFF;
         margin-left: 10px;
-        height: 32px;
-        margin-bottom: 3px;
+        height: auto;
+        margin-bottom: -8px;
         
        align-items: center;    
        /* justify-content: center; */
@@ -750,12 +772,14 @@ position: absolute;
        /* font-size: 35; */
        font-weight: lighter;
        font-family: 'Lato', sans-serif;
+
     }
     .time{
         font-size: 'Lato',sans-serif;
         margin-left: 10px;
         font-size: 12px;
         font-weight: lighter;
+        height: 20px;
     }
     .comm{
         height: 40px;
